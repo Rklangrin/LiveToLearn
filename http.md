@@ -1,5 +1,5 @@
 # HTTP
-** Hypertext Transfer Protocol **
+**Hypertext Transfer Protocol**
 
 This is essentially a set of rules defined to allow interaction between a client (a web browser like Chrome or Firefox) and server. It establishes a set of rules that the client and server must follow so that they can understand each other and pass data back and forth. If you type a URL into your browser, your browser will initiate a TCP connection (TCP explanation coming soon). Once there is a connection with the server, the browser, adhering to the HTTP protocol, will organize the information to send in the form of key-value pairs, called headers, so that the server will understand what is being requested.
 
