@@ -28,3 +28,14 @@ do {
   * Worst case scenario, the algorithm will have to look at a data set of n numbers and go through that data set n times in order to sort them. 
 * Inefficient algorithm because it spends time looking through data that's already sorted. If you had the following array: `[1, 2, 3, 4, 5, 6, 0]` 
   * Bubble sort will compare all the numbers that are already sorted then get to the end of the array, and move the 0 one spot to the left. This would happen n times until the 0 found its way to array[0]. This is inefficient because a lot of steps are wasted looking at sorted data, which ideally will be skipped with more efficient algorithms. 
+
+  ## Insertion Sort
+
+
+
+
+
+
+
+
+  
