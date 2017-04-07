@@ -7,7 +7,7 @@ Given an array of numbers. Each iteration will go through the array of numbers, 
 ```javascript
 
 var array = [8, 7, 3, 5, 9, 2, 0]
-// we want to reorder this array to go from smallest to larges numbers
+// we want to reorder this array to go from smallest to largest numbers
 
 do {
   let swapped = false;
