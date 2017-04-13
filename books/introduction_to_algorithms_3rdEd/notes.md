@@ -13,6 +13,3 @@
 
 ** Time complexity **
   * measure of how much time the algorithm takes to complete
-
-
-
