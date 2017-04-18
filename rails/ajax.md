@@ -3,7 +3,7 @@
 
 **OVERVIEW**
 
-In rails, the Ajax request starts from the HTML that is initially loaded to the page. You can add an option, `remote: true` to the `form_for`/`button_to`/`link_to` view helpers. This will alter the type of request that is made to the server. You can see the difference in the dev tools if you look at the request-accept header, which tells the server what type of information it wants in return. `Remote: true` changes the accept header from requesting HTML to JS. 
+In rails, the Ajax request starts from the HTML that is initially loaded to the page. You can add an option, `remote: true` to the `form_for`/`button_to`/`link_to` view helpers. This will alter the type of request that is made to the server. You can see the difference in the dev tools if you look at the request-accept header (under the network tab), which tells the server what type of information it wants in return. `Remote: true` changes the accept header from requesting HTML to JS. 
 
 So now the server knows the client(the chrome browser) wants information back in the form of javascript. On the controller, you can add different options for how the server responds to different requests using the `respond_to` method. 
 
