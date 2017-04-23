@@ -7,13 +7,13 @@ Classes have two types of members: Variables and Methods.
 ## Variables
 - a.k.a. instance variables. 
 Variables have: 
-  - assessSpecifier (public, protected, private, 'no specifier')
+  - accessSpecifier (public, protected, private, 'no specifier')
   - dataType
   - variableName
   - initialValue (optional)
 
 
-Possible AsessSpecifier values are:
+Possible AccessSpecifier values are:
   - public: Any object in any package can see the variable 
     - * Generally a bad idea to use public variables * 
   - protected: any object in the same package, or in a subclass, can see the variable
