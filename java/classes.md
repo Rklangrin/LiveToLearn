@@ -33,5 +33,38 @@ Other methods:
   2. Avoid numbers unless absolutely necessary
   3. Use only alphabetic chars.
 
+examples:
+```java
+  private String foo;
+  public String getFoo() {
+    return foo;
+  }
+  public void setFoo(String value) {
+    foo = value;
+  }
+```
+
 Static Methods - Class methods
+  ```java
+
+  Class Solution{
+
+    public static int addTwoNumbers(int a, int b) {
+      return a + b;
+    }
+
+  }
+
+  // Because static is referenced in this method, this method can be called while using the class name. As so: Solution.addTwoNumbers(5, 6);
+  ```
 Instance methods - These are methods of the object that is an instance of a class. 
+  ```java
+    Class Solution{
+
+      public int addTwoNumbers(int a, int b) {
+        return a + b;
+      }
+
+      //Since this method is not created as a static method, you must have an instance of the class created and then you can call the method chained to that instance
+  }
+  ```
