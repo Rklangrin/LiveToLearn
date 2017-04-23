@@ -18,8 +18,13 @@ Program for developing Java applications and applets. Included:
   - Compiler
   - Archiver (jar)
 
+## Packages
+Sounds like a package is similar to a library, which contains a bunch of classes that do stuff. 
+
 ## Generalizations
 * To instantiate an object, use the word "new" before the class name. 
 * Must always use accessSpecifiers when declaring variables.
+
+## 
 
 
