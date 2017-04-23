@@ -8,6 +8,15 @@
   }
 ```
 
+## For Each Loop
+
+```java
+  for (Integer points : gameScores){
+    System.out.println(points);
+  }
+```
+This reads like this: For each integer element (called points here) in gameScores, print out the value of the points.
+
 ## While loop
 
 ```java
