@@ -1,6 +1,6 @@
 # Collections
 
-![alt text](http://www.programcreek.com/wp-content/uploads/2009/02/java-collection-hierarchy.jpeg "Logo Title Text 1")
+![alt text](http://www.programcreek.com/wp-content/uploads/2009/02/java-collection-hierarchy.jpeg "Collection hierarchy")
 
 ## Arrays
 * Array size is **fixed** upon initialization. 
