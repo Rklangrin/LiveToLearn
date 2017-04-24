@@ -7,15 +7,22 @@ Primitive Data Types:
 * Char - 16 bits
   * Class: java.lang.Character
 * Short - 16 bits
+  * Range: -2<sup>15</sup> - 2<sup>15</sup> - 1
   * Class: java.lang.Short
 * Int - 32 bits
+  * Range: -2<sup>31</sup> - 2<sup>31</sup> - 1
   * Class: java.lang.Integer
 * Long - 64 bits
+  * Range: -2<sup>63</sup> - 2<sup>63</sup> - 1
   * Class: java.lang.Long
 * Float - 32 bits
   * Class: java.lang.Float
 * Double - 64 bits
   * Class: java.lang.Double
+
+** Use BigInteger class for really large numbers **
+
+** Integers are all signed, meaning they support positive and negative numbers. **
 
 Each of these primitive data types have a corresponding object wrapper class. So you can convert an int to an Inteer object, or a double to a Double object. 
   * Going from primitive to object is called "boxing"
@@ -33,8 +40,8 @@ Apparently an Integer is different than an int.
 
 
 ## Useful methods:
-Integer.parseInt("24") 
+- Integer.parseInt("24") 
   * This will turn 24 from string to int
 
-Integer.valueOf(2) 
+- Integer.valueOf(2) 
   * Will turn int 2 into an Integer Object.

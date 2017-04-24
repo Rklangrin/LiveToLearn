@@ -104,6 +104,10 @@ declaration examples:
   mapOfIntegers.get("1");
 ```
 
+Methods:
+* .put("hey", 1) - adds mapping with key of "hey" and value of 1
+* .get(key) - will return the value that is associated with that key
+
 You can create a set of the keys of a map like so:
 ```java
   Set<String> keys = mapOfIntegers.keySet();

@@ -3,6 +3,7 @@
 - Object-oriented 
 - code is written in .java files and the code is compiled into 'bytecode' in .class files. 
 - The bytecode can gthen be run on a Java Virtual Machine (JVM)
+- Uses null element
 
 Once .class files are created, the 'java' command can be used to run the java program from a JRE (Java runtime environment)
 
