@@ -1,6 +1,6 @@
 # Collections
 
-![alt text](http://www.programcreek.com/wp-content/uploads/2009/02/java-collection-hierarchy.jpeg "Collection hierarchy")
+![alt text](http://bhelmy.files.wordpress.com/2010/06/collectionss-heirarchy.jpg "Collection hierarchy")
 
 ## Arrays
 * Array size is **fixed** upon initialization. 
@@ -35,17 +35,6 @@ declaration examples:
 * .get(x) -- This is accessing an element in the list at index = x.
 * .get(x, y) -- This will place the value of y at the index of x in the array. 
 
-## Sets
-* each element in a set must be unique.
-* Can only hold objects
-* Elements in a set do not maintain any order.
-
-declaration examples:
-```java
-    Set<Integer> setOfIntegers = new HashSet<Integer>();
-    setOfIntegers.add(Integer.valueOf(10));
-```
-
 ### Array Lists
 
 Pros:
@@ -55,6 +44,11 @@ Cons:
 * Adding or removing anywhere but the end requires shifting of every other element in the array after the location it was added
   * I.e. if you have an array of 10 values and want to add an element to the 2nd spot (index = 1) in the array, then the next 8 spots all have to be shifted over one. 
 * If you add more elements than the array can hold, then what happens is a new array (1.5 times bigger) is created and the old array is copied into it. 
+
+### Vectors
+Essentially the same as ArrayLists except:
+  * Vectors grows twice as big when you add more elements than the vector has space. 
+  * Vectors are synchronized
 
 
 ### Linked Lists
@@ -82,6 +76,18 @@ Useful Methods:
     * .remove(index) 
     * .removeFirst()
     * .removeLast()
+
+
+## Sets
+* each element in a set must be unique.
+* Can only hold objects
+* Elements in a set do not maintain any order.
+
+declaration examples:
+```java
+    Set<Integer> setOfIntegers = new HashSet<Integer>();
+    setOfIntegers.add(Integer.valueOf(10));
+```
 
 
 ## Maps

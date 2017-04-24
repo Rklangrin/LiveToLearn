@@ -25,6 +25,7 @@ Sounds like a package is similar to a library, which contains a bunch of classes
 * To instantiate an object, use the word "new" before the class name. 
 * Must always use accessSpecifiers when declaring variables.
 
-## 
+## General terms 
+* Synchronized - if something is synchronized then it prevents multiple threads from manipulating a resource. Threads can only access it one at a time. 
 
 
