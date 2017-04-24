@@ -30,3 +30,11 @@ Example:
 ```
 
 Apparently an Integer is different than an int. 
+
+
+## Useful methods:
+Integer.parseInt("24") 
+  * This will turn 24 from string to int
+
+Integer.valueOf(2) 
+  * Will turn int 2 into an Integer Object.

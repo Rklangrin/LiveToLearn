@@ -39,9 +39,13 @@ examples:
   public String getFoo() {
     return foo;
   }
+  // This is saying the method will return a String object
+
   public void setFoo(String value) {
     foo = value;
   }
+  // the Void declares that nothing will be returned from this method
+  // Which means the method likely has some side-effect
 ```
 
 Static Methods - Class methods
@@ -55,7 +59,8 @@ Static Methods - Class methods
 
   }
 
-  // Because static is referenced in this method, this method can be called while using the class name. As so: Solution.addTwoNumbers(5, 6);
+  // Because static is referenced in this method, this method can be called 
+  // while using the class name. As so: Solution.addTwoNumbers(5, 6);
   ```
 Instance methods - These are methods of the object that is an instance of a class. 
   ```java
@@ -65,6 +70,7 @@ Instance methods - These are methods of the object that is an instance of a clas
         return a + b;
       }
 
-      //Since this method is not created as a static method, you must have an instance of the class created and then you can call the method chained to that instance
+      // Since this method is not created as a static method, you must have an 
+      // instance of the class created and then you can call the method chained to that instance
   }
   ```
