@@ -5,7 +5,7 @@
 ## Arrays
 * Array size is **fixed** upon initialization. 
 * Arrays are **zero-based**
-* **length** is an attribute of all arrays 
+* **length** is an attribute of all arrays (NOT A METHOD);
 
 declaration examples:
 ```java
