@@ -5,7 +5,7 @@
 ## Arrays
 * Array size is **fixed** upon initialization. 
 * Arrays are **zero-based**
-* **length** is an attribute of all arrays 
+* **length** is an attribute of all arrays (NOT A METHOD);
 
 declaration examples:
 ```java
@@ -103,6 +103,10 @@ declaration examples:
   // Retrieve a value by using the key
   mapOfIntegers.get("1");
 ```
+
+Methods:
+* .put("hey", 1) - adds mapping with key of "hey" and value of 1
+* .get(key) - will return the value that is associated with that key
 
 You can create a set of the keys of a map like so:
 ```java
