@@ -1,6 +1,9 @@
 General: 
 
+[See my codepen for the below examples](https://codepen.io/rklangrin/pen/wddagL?editors=1100)
+
 - The styling that is more specific will take precedent. 
+- Styles cascade down. If you declare a style like `text-align: center` using a less specific selector like div, and none of the more specific selectors (maybe div.this-class) also referring to divs don't mention a text-align property, then they will still all have `text-align: center` in them. It will only be negated if a more specific selector overrides that style by putting something like `text-align: right`. 
 
 ```html
 <div>1. Generic div</div>
